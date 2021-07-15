@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="test.css">
+      <title>Sign Up</title>
+</head>
+
+<body>
+      <button type="submit"><a href="../Html.html">Back</a> </button>
+      <form>
+            <fieldset>
+                  <legend>Sign Up</legend>
+                  <div>
+                        <label for="user">
+                              &nbsp    &nbspEmail
+                              <input type="email" name="username" id="user" placeholder="Email">
+                        </label>
+
+
+                        <label for="pass">
+                              Password
+                              <input type="password" name="password" id="pass" placeholder="Password">
+                        </label>
+                  </div>
+                  <div>
+                        <label for="tel">
+                              Number
+                              <input type="tel" name="telephone" id="tel" placeholder="+961********">
+                        </label>
+                        <label for="date">
+                              Birthday
+                              <input type="date" name="date" id="date">
+                        </label>
+                  </div>
+                  <div>
+                        <label for="Gender1">
+                              Male
+                              <input type="radio" name="Gender" id="Gender1" value="male" onclick="gender()">
+                        </label>
+                        <label for="Gender">
+                              Female
+                              <input type="radio" name="Gender" id="Gender" value="female" onclick="gender()">
+                        </label>
+                  </div>
+                  <button type="submit" onclick="gender()" id="btn">Next</button>
+                  <button type="reset">Reset</button>
+            </fieldset>
+
+      </form>
+      <script>
+            function gender() {
+                  let male = document.getElementById('Gender1');
+                  let female = document.getElementById('Gender');
+                  let btn = document.getElementById('btn');
+                  if (male.checked == false && female.checked == false) {
+                        alert('you have to choose at least one option');
+                        return;
+                  }
+            }
+      </script>
+</body>
+
+</html>

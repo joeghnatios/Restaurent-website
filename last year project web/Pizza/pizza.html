@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pizza</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      
+      <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+     
+      <button id="scrolltop">
+            <i class="material-icons">arrow_upward</i>
+      </button>
+
+      <h1>Pizza <i class="fas fa-pizza-slice"></i></h1>
+      <button type="submit" id="back"><a href="../Html.html"> Back</a></button>
+
+
+      <div class="foot-menu-back">
+            <div class="food-content">
+                  <figure>
+                        <div class="image">
+                              <img class="image__img" src="pepperoni.jfif" alt="pepperoni pizza">
+                              <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">Pepperoni</div>
+                                    <p class="image__description">
+                                          special tomato sauce,cheese<br>pepperoni,corn,mushroom,olive,basil 
+                                    </p>
+                              </div>
+                        </div>
+                        <figcaption>Pepperoni</figcaption>
+                        <button onclick="somm7()">20$</button>
+                  </figure>
+
+                  <figure>
+                        <div class="image">
+                              <img class="image__img" src="FourCheese.jpg" alt="fourcheese pizza">
+                              <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">FourCheese pizza</div>
+                                    <p class="image__description">
+                                          special tomato sauce,basil<br>four kind of cheese
+                                    </p>
+                              </div>
+                        </div>
+                        <figcaption>FourCheese pizza</figcaption>
+                        <button onclick="somm6()">18$</button>
+                  </figure>
+
+            </div>
+            <!--food content-->
+            <div class="food-content">
+                  <figure>
+                        <div class="image">
+                              <img class="image__img" src="al pesto.jpg" alt="Al pesto pizza">
+                              <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">Al pesto pizza</div>
+                                    <p class="image__description">
+                                          Pesto sauce,cheese,corn,mushroom<br>olive,oregano
+                                    </p>
+                              </div>
+                        </div>
+                        <figcaption>Al pesto pizza</figcaption>
+                              <button onclick="somm()">19$</button>
+                  </figure>
+
+                  <figure>
+                        <div class="image">
+                              <img class="image__img" src="vegan pizza.jpg" alt="Vegetarian pizza">
+                              <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">Vegetarian pizza</div>
+                                    <p class="image__description">
+                                          spefial tomato sauce,cheese<br>mushroom,corn,oregano,olive,sweet pepper,onion,basil.
+                                    </p>
+                              </div>
+                        </div>
+                        <figcaption>Vegetarian pizza</figcaption>
+                        <button onclick="somm1()">16$</button>
+                  </figure>
+
+            </div>
+          
+
+                  <!-- total -->
+                  <p class="total">Total price = $
+                        <span id="result" class="total">0</span>
+                      </p>
+                    
+                      <a href="coming.html" ><button class="bottom-but" onclick="submit()" >Submit Order</button></a>
+                      <button  class="bottom-but" onclick="undo()" >Undo</button>
+                      <button type="reset" class="bottom-but"  onclick="Reset()">Reset</button>
+                 
+
+
+
+      </div>
+      <!--food back-->
+
+      <script src="pizza.js"></script>
+</body>
+
+</html>

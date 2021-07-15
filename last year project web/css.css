@@ -1,0 +1,377 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f6f6f6;
+  cursor: default;
+}
+img{
+  width:100%;
+  
+}
+header {
+  background-color: rgba(119, 114, 106, 0.603);
+  height: 60px;
+  margin: 0px;
+  top:0px;
+}
+
+
+.logo-text {
+  padding-left: 20px;
+  font-family: Cambria, serif;
+  transition: 0.5s;
+  font-size: 40px;
+}
+.logo-text:hover {
+  padding-left: 45px;
+}
+
+.logo-text-color {
+  color: rgb(212, 211, 211);
+}
+
+header ul {
+  float: right;
+  list-style: none;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  padding: 20px;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header ul li :hover {
+  background-color: rgba(158, 154, 147, 0.603);
+  color: rgb(212, 211, 211);
+}
+#scrolltop{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(161, 153, 153);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) ;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+#scrolltop:active{
+  background-color: rgb(116, 111, 111);
+}
+.foodtypeback{
+  background-color: #aaaaaa;
+}
+.foodtype{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+.foodname{
+  height: 250px;
+  width: 280px;
+  cursor: pointer;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  transition: 0.5s;
+
+}
+.foodname:hover{
+  box-shadow: 10px 10px 10px grey ;
+}
+.figcapforfood{
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3px;
+  background-color: #c2c3c5;
+}
+.reviewback{
+  background-color: #f5f5f5;
+}
+.reviewh1{
+margin: 0;
+padding-top: 10px;
+text-align: center;
+color: rgb(65, 73, 73);
+font-weight: bolder;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checked {
+  color: orange;
+}
+
+.review{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #1e2024;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.reviewparag{
+margin-left:175px;
+margin-top: 15px;
+}
+.reviewparag2{
+  margin-top: 15px;
+}
+
+.aboutback{
+  background-color: #3e3f3f;
+}
+.abouth1{
+  margin: 0;
+padding-top: 10px;
+padding-left: 40px;
+color: rgb(187, 190, 190);
+font-weight: bolder;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgman2ouch{
+  height:220px;
+  width: 240px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.aboutflex{
+  display: flex;
+}
+.abouttext{
+  padding: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(187, 190, 190);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.location{
+  color: #3c81bd;
+  font-size: 25px;
+  font-style: oblique;
+}
+
+
+.fav-res{
+  font-size: 20px;
+  font-family: Cambria, serif;
+  font-weight: bold;
+}
+.ulfoot {
+  font-size: 18px;
+}
+.footer {
+  background-color: rgba(119, 114, 106, 0.603);
+  color: black;
+  height: 400px;
+ 
+}
+.footer .footercontent {
+  display: flex;
+  
+}
+
+.footer .footercontent .footersection {
+  flex: 1;
+  padding: 25px;
+}
+.footer .footercontent .links ul a {
+ display: block;
+ margin-bottom: 12px;
+  font: size 1.2em;
+  transition: all 0.3s;
+}
+.footer .footercontent .links ul a:hover {
+  color: black;
+  margin-left: 15px;
+}
+
+.footer .footercontent h1,
+.footer .footercontent h2 {
+  color: black;
+  cursor: default;
+  font-family: "Segoe UI", sans-serif;
+}
+#tit {
+      color: rgb(212, 211, 211);
+}
+.footer .footerbottom {
+  background-color: rgba(158, 154, 147, 0.603);
+  color: black;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  bottom: 0px;
+  padding: 1px 0;
+  cursor: default;
+}
+.subbut {
+  background-color: rgb(80, 86, 90);
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+}
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+#mail {
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+#mail:focus{
+  outline: none;
+}
+
+
+.text-input{
+  border-radius: 4px;
+}
+.text-input:focus{
+  outline: none;
+}
+
+
+
+
+/* Carousel */
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
+}
+
+.carousel {
+  position: relative;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  margin-top: 0px;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+  display: block;
+  height: 550px;
+  max-width: 100%;
+}
+
+.carousel-control {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.carousel-control.prev {
+  left: 2%;
+}
+
+.carousel-control.next {
+  right: 2%;
+}
+
+.carousel-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.carousel-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+.carousel-bullet:hover {
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #428bca;
+}
+
+#title {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+

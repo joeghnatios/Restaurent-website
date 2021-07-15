@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sandwich</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="all.min.css">
+      <link rel="stylesheet" href="sandwich.css">
+</head>
+
+<body>
+      <button id="scrolltop">
+            <i class="material-icons">arrow_upward</i>
+      </button>
+
+      <h1>Sandwich</h1>
+      <button type="submit" id="back"><a href="../Html.html"> Back</a></button>
+
+
+      <div class="foot-menu-back">
+            <div class="food-content">
+                  <figure>
+                        <div class="image">
+                              <img class="image__img" src="shawarma.jpg" alt="Shawarma">
+                              <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">Shawarma</div>
+                                    <p class="image__description">
+                                         chicken,fries,iceberg<br>pickles,garlic 
+                                    </p>
+                              </div>
+                        </div>
+                        <figcaption>Shawarma</figcaption>
+                        <button onclick="somm7()">8$</button>
+                  </figure>
+
+                  <figure>
+                        <div class="image">
+                              <img class="image__img" src="taouk.jpg" alt="Taouk ">
+                              <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">Taouk </div>
+                                    <p class="image__description">
+                                          marinated chicken,pickles<br>coleslaw,french fries,tomato<br>garlic-mayo sauce,mint
+                                    </p>
+                              </div>
+                        </div>
+                        <figcaption>Taouk </figcaption>
+                        <button onclick="somm6()">10$</button>
+                  </figure>
+
+            </div>
+            <!--food content-->
+            <div class="food-content">
+                  <figure>
+                        <div class="image">
+                              <img class="image__img" src="fajitas.jpg" alt="Fajita">
+                              <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">Fajita</div>
+                                    <p class="image__description">
+                                          seasoned chicken,mayo,iceberg<br>onion,sweet pepper,cheese and special saude,fries
+                                    </p>
+                              </div>
+                        </div>
+                        <figcaption>Fajita</figcaption>
+                              <button onclick="somm()">11$</button>
+                  </figure>
+
+                  <figure>
+                        <div class="image">
+                              <img class="image__img" src="avocado.jpeg" alt="Avocado">
+                              <div class="image__overlay image__overlay--primary">
+                                    <div class="image__title">Avocado</div>
+                                    <p class="image__description">
+                                          grilled chicken,guacamole<br>iceberg letuce
+                                    </p>
+                              </div>
+                        </div>
+                        <figcaption>Avocado</figcaption>
+                        <button onclick="somm1()">14$</button>
+                  </figure>
+
+            </div>
+          
+
+                  <!-- total -->
+                  <p class="total">Total price = $
+                        <span id="result" class="total">0</span>
+                      </p>
+                    
+                      <a href="coming.html"> <button class="bottom-but" onclick="submit()" >Submit Order</button></a>
+                      <button  class="bottom-but" onclick="undo()" >Undo</button>
+                      <button type="reset" class="bottom-but"  onclick="Reset()">Reset</button>
+                 
+
+
+
+      </div>
+      <!--food back-->
+
+      <script src="sandwich.js"></script>
+</body>
+
+</html>
